@@ -7,7 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Pages\Vorschau.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authentication.MicrosoftAccount" Version="7.0.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Pages\Vorschau.cshtml" />
   </ItemGroup>
 
 </Project>
