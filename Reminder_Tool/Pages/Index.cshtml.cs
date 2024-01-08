@@ -16,5 +16,16 @@ namespace Reminder_Tool.Pages
         {
 
         }
+        [BindProperty]
+        public string UserInput { get; set; }
+
+        public void OnPost()
+        {
+            // Code to execute when the form is submitted (HTTP POST)
+            // Access UserInput property here
+            string userInputValue = UserInput;
+
+            // Your logic here...
+        }
     }
 }
